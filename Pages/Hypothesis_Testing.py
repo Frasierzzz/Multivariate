@@ -4,10 +4,6 @@ def show():
     from scipy.stats import chi2, f
     
     # ส่วนแสดงผลของหน้า
-    st.set_page_config(
-        page_title="Hypothesis Testing (1-2 groups)",
-        page_icon="🧪",
-    )
     def HT_show():
         head = """ <h1 style='text-align: center'> Hypothesis Testing in Multivariate Analysis </h1> """
         st.markdown(head, unsafe_allow_html=True)
