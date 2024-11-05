@@ -1,5 +1,3 @@
-st.set_page_config(page_title="Data Manipulation", page_icon="📈",)
-
 def show():
     import streamlit as st; import math
     # ส่วนแสดงผลของหน้า
