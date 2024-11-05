@@ -1,7 +1,6 @@
-import streamlit as st; import numpy as np; import pandas as pd
-from scipy.stats import multivariate_normal; np.random.seed(0)
-
 def show():
+    import streamlit as st; import numpy as np; import pandas as pd
+    from scipy.stats import multivariate_normal; np.random.seed(0)
     # ส่วนแสดงผลของหน้า
     st.set_page_config(page_title="Data Simulating", page_icon="💻",)
     def DS_show():
