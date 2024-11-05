@@ -1,8 +1,8 @@
 import streamlit as st; import pandas as pd
-import Pages.Data Manipulation as data_manipulation
-import Pages.Data Simulating as data_simulating
-import Pages.Multivariate Visualization as multivariate_visualization
-import Pages.Hypothesis Testing as hypothesis_testing
+import Pages.Data_Manipulation as data_manipulation
+import Pages.Data_Simulating as data_simulating
+import Pages.Multivariate_Visualization as multivariate_visualization
+import Pages.Hypothesis_Testing as hypothesis_testing
 import Pages.MANOVA as manova
 st.set_page_config(page_title="Homepage",page_icon="🏚️",)
 
