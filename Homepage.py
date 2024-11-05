@@ -1,4 +1,34 @@
 import streamlit as st; import pandas as pd
+import Pages.1_Data_Manipulation as data_manipulation
+import Pages.2_Data_Simulating as data_simulating
+import Pages.3_Multivariate_Visualization as multivariate_visualization
+import Pages.4_Hypothesis_Testing as hypothesis_testing
+import Pages.5_MANOVA as manova
+
+st.sidebar.title("Navigation")
+page = st.sidebar.selectbox("Select a page:", [
+    "Homepage", 
+    "Data Manipulation", 
+    "Data Simulating", 
+    "Multivariate Visualization", 
+    "Hypothesis Testing", 
+    "MANOVA"
+])
+
+if page == "Homepage":
+    st.title("Welcome to the Homepage")
+    st.write("This is the main page of the application.")
+elif page == "Data Manipulation":
+    data_manipulation.show()  
+elif page == "Data Simulating":
+    data_simulating.show()  
+elif page == "Multivariate Visualization":
+    multivariate_visualization.show()
+elif page == "Hypothesis Testing":
+    hypothesis_testing.show()
+elif page == "MANOVA":
+    manova.show()
+
 
 # ส่วนแสดงผลของหน้า
 st.set_page_config(page_title="Homepage",page_icon="🏚️",)
