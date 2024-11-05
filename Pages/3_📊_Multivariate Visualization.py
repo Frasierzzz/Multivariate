@@ -1,9 +1,8 @@
-import streamlit as st; import numpy as np
-import matplotlib.pyplot as plt; import pandas as pd
-from scipy.stats import multivariate_normal
-import plotly.graph_objects as go
-
 def show():
+    import streamlit as st; import numpy as np
+    import matplotlib.pyplot as plt; import pandas as pd
+    from scipy.stats import multivariate_normal
+    import plotly.graph_objects as go
     # ส่วนแสดงผลของหน้า
     st.set_page_config(
         page_title="Multivariate Visualization",
