@@ -1,8 +1,8 @@
+st.set_page_config(page_title="Data Manipulation", page_icon="📈",)
+
 def show():
     import streamlit as st; import math
     # ส่วนแสดงผลของหน้า
-    st.set_page_config(
-        page_title="Data Manipulation", page_icon="📈",)
     ## ฟังก์ชันแสดงข้อความบนหน้าเว็บ
     def DM_show():
         # ชื่อหัวข้อ
