@@ -3,12 +3,6 @@ def show():
     import numpy as np; import pingouin as pg
     from statsmodels.multivariate.manova import MANOVA
     
-    # ส่วนแสดงผลของหน้า
-    st.set_page_config(
-        page_title="Hypothesis Testing (>2 groups)",
-        page_icon="🤖",
-    )
-    
     def MANOVA_show():
         st.markdown("<h1 style='text-align: center'> MANOVA Testing </h1>", unsafe_allow_html=True)
         st.write("## ")
