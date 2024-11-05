@@ -3,11 +3,7 @@ def show():
     import matplotlib.pyplot as plt; import pandas as pd
     from scipy.stats import multivariate_normal
     import plotly.graph_objects as go
-    # ส่วนแสดงผลของหน้า
-    st.set_page_config(
-        page_title="Multivariate Visualization",
-        page_icon="📊",
-    )
+
     def MV_show():
         head = """ <h1 style='text-align: center'> Data Visualization </h1> """
         st.markdown(head, unsafe_allow_html=True)
